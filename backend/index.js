@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 app.use(router);
 
-const url="mongodb://localhost:27017/intern360";
+const url="mongodb+srv://rohit2002:5g:r-gkT:XnB5MT@cluster0.ii1e2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 mongoose.connect(url).then(()=>{
     console.log("Database Connected Succssfully")
